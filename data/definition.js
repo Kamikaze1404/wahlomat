@@ -62,14 +62,14 @@
 	e.g. "Airport","The airport shall be expanded."
 */
 
-var fileQuestions = "Obsthausen_Fragen.csv";
+const fileQuestions = "Obsthausen_Fragen.csv";
 
 
 // 	--------------------------------------------------------------------
 
 //	1.2 ANZAHL der FRAGEN / 1.2 NUMBER of QUESTIONS
 
-var intQuestions = 6;
+const intQuestions = 6;
 
 
 // 	--------------------------------------------------------------------
@@ -94,7 +94,7 @@ var intQuestions = 6;
  	1.3. PARTIES, PARTY-INFORMATION and ANSWERS
 */
 
-var fileAnswers = "Obsthausen_Parteien.csv";
+const fileAnswers = "Obsthausen_Parteien.csv";
 
 /*
  	1.5. BILDGROESSE des PARTEILOGOS (am Ende)
@@ -116,10 +116,10 @@ var fileAnswers = "Obsthausen_Parteien.csv";
 	const intPartyLogosImgWidth = 50;
 	const intPartyLogosImgHeight = "";
 
-*/
-var intParties = ""
-var intPartyLogosImgWidth = "10%";
-var intPartyLogosImgHeight = "10%";
+*/ 
+
+const intPartyLogosImgWidth = "10%";
+const intPartyLogosImgHeight = "10%";
 
 
 // 	--------------------------------------------------------------------
@@ -132,21 +132,21 @@ var intPartyLogosImgHeight = "10%";
 // 	Show a short description in the beginning (1) or start with the questions right (0) away?
 //		If you choose for the questions right away, a short "loading" message will appear. :(
 
-var descriptionShowOnStart = 1;
+const descriptionShowOnStart = 1;
 
 // 	1.6.2. Hauptueberschrift / 1.6.1. Main headline
 
-var descriptionHeading1 = "Fruchtkorbwahlen";
+const descriptionHeading1 = "Fruchtkorbwahlen";
 
 
 // 	1.6.3. Zweite Ueberschrift / 1.6.2. Second Headline
 
-var descriptionHeading2 = "Die Wahl zur neuen Regierung in Obsthausen";
+const descriptionHeading2 = "Die Wahl zur neuen Regierung in Obsthausen";
 
 
 // 	1.6.4. Kurzer Text um was es bei der Wahl geht / 1.6.3. Short (descriptive) text on what's the election about
 
-var descriptionExplanation = "Am 30. Februar finden in Obsthausen Wahlen statt. Sie k&ouml;nnen sich hier alle Parteipositionen anschauen und miteinander vergleichen. Dies ist <strong>keine Wahlempfehlung</strong>, sondern ein Informationsangebot zu Wahlen! <br /> Zur Auswahl stehen vier Parteien mit unterschiedlichen Meinungen zu kontroversen Themen der Obst- und Frucht-Landschaft."; 
+const descriptionExplanation = "Am 30. Februar finden in Obsthausen Wahlen statt. Sie k&ouml;nnen sich hier alle Parteipositionen anschauen und miteinander vergleichen. Dies ist <strong>keine Wahlempfehlung</strong>, sondern ein Informationsangebot zu Wahlen! <br /> Zur Auswahl stehen vier Parteien mit unterschiedlichen Meinungen zu kontroversen Themen der Obst- und Frucht-Landschaft."; 
 
 
 // 	--------------------------------------------------------------------
@@ -169,7 +169,7 @@ var descriptionExplanation = "Am 30. Februar finden in Obsthausen Wahlen statt. 
 
 */
 
-	var imprintLink = "system/imprint.html"
+	const imprintLink = "system/imprint.html"
 
 
 // 	--------------------------------------------------------------------
@@ -192,7 +192,7 @@ var descriptionExplanation = "Am 30. Februar finden in Obsthausen Wahlen statt. 
 
 // 	1.7.B.1: Allgemeines. "Angaben gemäß § 5 TMG" / General information
 
-var imprintGeneral = `<p>Muster e. V.<br /> 
+const imprintGeneral = `<p>Muster e. V.<br /> 
 			Musterstra&szlig;e 111<br />
 			Geb&auml;ude 44<br />
 			90210 Musterstadt</p>
@@ -207,7 +207,7 @@ var imprintGeneral = `<p>Muster e. V.<br />
 
 // 	1.7.B.2: Kontaktdaten / Contact details
 
-var imprintContact = `<p>Telefon: +49 (0) 123 44 55 66<br />
+const imprintContact = `<p>Telefon: +49 (0) 123 44 55 66<br />
 			Telefax: +49 (0) 123 44 55 99<br />
 			E-Mail: mustermann@musterfirma.de<br />
 			Web: musterfirma.de</p>`
@@ -215,7 +215,7 @@ var imprintContact = `<p>Telefon: +49 (0) 123 44 55 66<br />
 
 //	1.7.B.3: (optional) Umsatzsteuer-ID / (optional) VAT-ID
 
-var imprintVATid = `<p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
+const imprintVATid = `<p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
 			DE 999 999 999</p>`
 
 
@@ -223,7 +223,7 @@ var imprintVATid = `<p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect
 //	(optional) Verbraucher­streit­beilegung / Universal­schlichtungs­stelle
 //	(optional) Online Dispute Resolution for consumers by European Commission
 
-var imprintDisputeResultion = `<p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: (https://ec.europa.eu/consumers/odr).</p>
+const imprintDisputeResultion = `<p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: (https://ec.europa.eu/consumers/odr).</p>
 				<p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>`
 
 
@@ -231,7 +231,7 @@ var imprintDisputeResultion = `<p>Die Europäische Kommission stellt eine Plattf
 //	(optional) Redaktion: Person(en), die die Fragen ausgearbeitet hat
 //	(optional) Editor: Person(s), who worked on the questions
 
-var imprintEditors = `<p>Max Mustermann, Martina Mustermann, Harry Hirsch</p>
+const imprintEditors = `<p>Max Mustermann, Martina Mustermann, Harry Hirsch</p>
 		     <p> <a href='mailto:max@mustermann-politikfreund.de'>max@mustermann-politikfreund.de</a></p>`;
 
 
@@ -239,7 +239,7 @@ var imprintEditors = `<p>Max Mustermann, Martina Mustermann, Harry Hirsch</p>
 //	(optional) Technik: Person(en), die das System aufgesetzt hat
 //	(optional) Programming: Person(s), who set up the system
 
-var imprintProgramming = `<p>Max Mustermann, Hans Wurst</p>
+const imprintProgramming = `<p>Max Mustermann, Hans Wurst</p>
 			<p> <a href='mailto:info@hans-wurst-webdesign-obsthausen.com'>E-Mailadresse</a> </p>`;
 
 
@@ -247,7 +247,7 @@ var imprintProgramming = `<p>Max Mustermann, Hans Wurst</p>
 //	(optional) Quellenangaben zu den Bildern
 //	(optional) Sources of pictures
 
-var imprintPictures = `<p> Bilder mit freundlicher Genehmigung von / Pictures with permission from: 
+const imprintPictures = `<p> Bilder mit freundlicher Genehmigung von / Pictures with permission from: 
 			<br /> Max Mustermann, Foto Franz Frankfurt, Neutrale Partei
 			<br /> Äpfel: Von Glysiak - Eigenes Werk, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=8146365
 			<br /> Bananen: Von Steve Hopson, www.stevehopson.com, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=1541726
@@ -258,7 +258,7 @@ var imprintPictures = `<p> Bilder mit freundlicher Genehmigung von / Pictures wi
 //	(optional) Link zu einer Datenschutzerklaerung beginnend mit http(s):- erlaubt die anonyme Statistik
 //	(optional) Link to a privacy policy starting with http(s):- allows the anonymous statistics
 
-var imprintPrivacyUrl = "https://www.hans-wurst-webdesign-obsthausen.com/datenschutz.html";
+const imprintPrivacyUrl = "https://www.hans-wurst-webdesign-obsthausen.com/datenschutz.html";
 
 
 //	--------------------------------------------------------------------
@@ -271,7 +271,7 @@ var imprintPrivacyUrl = "https://www.hans-wurst-webdesign-obsthausen.com/datensc
 //	2.1. Trennzeichen fuer die CSV-Dateien (Excel benutzt haeufig Semikolon, OpenOffice/LibreOffice ein Komma)
 //	2.1. Separator for CSV files (Excel uses often a semicolon, OpenOffice/LibreOffice a comma)
 
-var separator = ";";
+const separator = ";";
 
 
 /*	
@@ -299,7 +299,7 @@ var separator = ";";
 	Please find some examples above.  
 */  
 
-var design = ["default.css","buttons-colors-on.css", "progressbar.css"];
+const design = ["default.css","buttons-colors-on.css", "progressbar.css"];
 
 
 /*
@@ -328,13 +328,13 @@ var design = ["default.css","buttons-colors-on.css", "progressbar.css"];
 
 */
 
-var addons = []
+const addons = []
 
 
 //	2.4 Sprache / Language
 //	see files in folder /i18n/
 
-var language = "de";
+const language = "de";
 
 
 ///////////////////////////////////////////////////////////////////////
@@ -362,8 +362,8 @@ var language = "de";
 	The script and Mat-O-Wahl must be on the same domain and network-protocoll. (no "cross origin" / CORS)
 */
 
-var statsRecord = 0;
-var statsServer = "http://localhost/extras/statistics/vote_txt.php";
+const statsRecord = 0;
+const statsServer = "http://localhost/extras/statistics/vote_txt.php";
 
 
 /*
