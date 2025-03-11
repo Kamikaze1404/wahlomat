@@ -69,7 +69,7 @@ const fileQuestions = "Obsthausen_Fragen.csv";
 
 //	1.2 ANZAHL der FRAGEN / 1.2 NUMBER of QUESTIONS
 
-const intQuestions = 6;
+const intQuestions = 4;
 
 
 // 	--------------------------------------------------------------------
