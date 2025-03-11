@@ -1,7 +1,7 @@
-Partei_kurz:;"APPD"
-Partei_lang:;"Appelpartei Deutschlands"
-Partei_Beschreibung:;"Die Apfelpartei steht seit vielen Jahren für alle Angelegenheiten des Apfels. &#x1F464; &#8203; &#8206; <span data-email='info@appelpartei.de'></span> <span data-filterid='&#x1F464; &#8203; &#8206;'></span>"
-Partei_URL:;"https://www.appelpartei.ap"
+Partei_kurz:;"CDU"
+Partei_lang:;"Christlich Demokratische Union Deutschlands"
+Partei_Beschreibung:;"Die CDU vertritt christlich-konservative Werte und wirtschaftsliberale Ans�tze. &#x1F464; &#8203; &#8206; <span data-email='info@appelpartei.de'></span> <span data-filterid='&#x1F464; &#8203; &#8206;'></span>"
+Partei_URL:;"https://www.cdu.de/"
 Partei_Bild:;"data/appel2.jpg"
 -1;"Gelb ist keine schöne Farbe. Rot ist viel besser!"
 1;"Runde Früchte sind am besten!"
@@ -9,11 +9,11 @@ Partei_Bild:;"data/appel2.jpg"
 0;"Ist uns ziemlich egal."
 1;"Ja, Früchte sollen am Baum bleiben, bis sie reif sind."
 1;"Ja, süße Früchte sind toll."
-#
-Partei_kurz:;"Bananen"
-Partei_lang:;"Bananenrepublikpartei"
-Partei_Beschreibung:;"Warum ist die Banane krumm? Weil niemand in den Urwald zog und die Banane grade bog! - Die Bananenpartei kümmert sich um alle Belange der Bananen.  &#8203; &#8205; <span data-filterid='&#8203; &#8205;'></span> <span data-email='info@banane.ba?cc=vorstand@banane.ba'></span>"
-Partei_URL:;"https://www.banane.ba"
+#;
+Partei_kurz:;"AFD"
+Partei_lang:;"Alternative f�r Deutschland"
+Partei_Beschreibung:;"Die AFD setzt sich f�r konservative Werte und eine restriktive Migrationspolitik ein.  &#8203; &#8205; <span data-filterid='&#8203; &#8205;'></span> <span data-email='info@banane.ba?cc=vorstand@banane.ba'></span>"
+Partei_URL:;"https://www.afd.de/"
 Partei_Bild:;"data/banane2.jpg"
 1;"Gelb ist die beste Farbe!   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
 -1;"Früchte müssen lang sein, nicht rund.   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
@@ -22,27 +22,26 @@ Partei_Bild:;"data/banane2.jpg"
 -1;"Früchte können schon früher abgenommen werden und im Container reifen.   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
 1;"Süße Früchte sind lecker.   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
 #;
-Partei_kurz:;"TBC"
-Partei_lang:;"Tradionelle Bundesdeutsche Citronenpartei"
-Partei_Beschreibung:;"Deutsche, kauft deutsche Zitronen! - Gelb, saftig, sauer - ideal um zum Lachen in den Keller zu gehen. &#8203; &#8205; &#8206; <span data-filterid='&#8203; &#8205; &#8206;' data-email000000='kontakt@die-citronen.ca'></span>"
-Partei_URL:;"https://www.die-citronen.ca"
+Partei_kurz:;"SPD"
+Partei_lang:;"Sozialdemokratische Partei Deutschlands"
+Partei_Beschreibung:;"Die SPD steht f�r soziale Gerechtigkeit und progressive Reformen. &#8203; &#8205; &#8206; <span data-filterid='&#8203; &#8205; &#8206;' data-email000000='kontakt@die-citronen.ca'></span>"
+Partei_URL:;"https://www.spd.de"
 Partei_Bild:;"data/tbc2.jpg"
-1;Gelb ist eindeutig die beste Farbe.
-1;Runde Früchte haben die beste Form!
--1;Die Schale muss nicht mitgegessen werden.
--1;Spinat ist kein gesundes Essen.
--1;Früchte können gern schon frühzeitig abgenommen werden.
--1;Süße Früchte sind für kleine Mädchen. Echte Männer mögen Zitronen!
-#
-Partei_kurz:;"Neutrale"
-Partei_lang:;"Neutrale Partei"
-Partei_Beschreibung:;"&#x1F464; &#8203;"
-Partei_URL:;"http://www.neutrale-partei.np"
+1;"Gelb ist eindeutig die beste Farbe."
+1;"Runde Früchte haben die beste Form!"
+-1;"Die Schale muss nicht mitgegessen werden."
+-1;"Spinat ist kein gesundes Essen."
+-1;"Früchte können gern schon frühzeitig abgenommen werden."
+-1;"Süße Früchte sind für kleine Mädchen. Echte Männer mögen Zitronen!"
+#;
+Partei_kurz:;"B�ndnis 90/Die Gr�nen"
+Partei_lang:;"B�ndnis 90/Die Gr�nen"
+Partei_Beschreibung:;"Die Gr�nen setzen sich f�r Umwelt- und Klimaschutz sowie soziale Nachhaltigkeit ein. &#x1F464; &#8203;"
+Partei_URL:;"https://www.gruene.de"
 Partei_Bild:;"data/egal2.jpg"
-0;Ist uns egal.
-0;Ist uns egal.
-0;Ist uns egal.
-0;Ist uns egal.
-0;Ist uns egal.
-0;Ist uns egal.
-
+0;"Ist uns egal."
+0;"Ist uns egal."
+0;"Ist uns egal."
+0;"Ist uns egal."
+0;"Ist uns egal."
+0;"Ist uns egal."
